@@ -1,114 +1,60 @@
 /* Alan Ismaiel Home Website Style Sheet */
 
-/* Overall color palette:
-Aqua Blue: #3cafb5
-Light Blue: #d6faff
-Eggshell: #fff8e8
-Mute Pink: #f7bed3
-Gray: #ededeb
-*/
-
 /* Icon Code */
 .fa {
   font-size: 3vh;
-  width: 30px;
+  width: 6vh;
   text-align: center;
   text-decoration: none;
-  margin: 1px 2px 2px 2px;
+  margin: 0vh 1vh 0vh 1vh;
   border-radius: 50%;
+  color: white;
 }
 
 .fa:hover {
   opacity: 0.7;
 }
 
-.fa-facebook {
-  color: #d6faff;
-}
-
-.fa-send {
-  color: #d6faff;
-}
-
-.fa-linkedin {
-  color: #d6faff;
-}
-
-.fa-github {
-  color: #d6faff;
-}
-
 .fa-list {
-  position: absolute;
-  left: 10px;
-  color: #d6faff;
-  font-size: 30px;
+  left: 1vh;
+  font-size: 5vh;
+  border: none;
 }
 
 /* End Icon Code */
 
-/* Philadelphia Backdrop */
-.imageback {
-  position: relative;
-  top: 0;
-  width: 100%;
-  z-index: 25;
+.listbox {
+  height: 6vh;
+  width: 6vh;
+  padding: 0;
+  background-color: white;
+  border-color: #5d5b61;
+  border-style: solid;
+  border-width: .5vh;
 }
 
-/* Self Picture */
-.selfimage {
-  display: block;
-  position: relative;
-  border: 10px solid #f7bed3;
-  margin-left: auto;
-  margin-right: auto;
-  zoom: 0.5;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  box-shadow: 2px 10px 10px #888888;
+.listbox:hover {
+  background-color: #b0a195;
 }
 
-/* Block Backdrop */
-.blockbackdrop {
-  background-color: #ededeb;
-  margin: auto;
-  width: 80%;
-  min-height: 30vh;
-}
-
-.blockbackdrop h1 {
-  text-align: center;
-  font-family: "Open Sans";
-  padding: 4vh;
-  color: #1376e8;
-}
-
-.copyright {
-  text-align: left;
-  color: #d6faff;
-  font-size: 1.5vh;
-}
-
-/* Overall changes */
-* {
-    margin:0;
-    padding:0;
+.blankbox {
+  height: 7vh;
+  width: 7vh;
+  padding: 0;
 }
 
 header {
     position: fixed;
     width: 100%;
-    background-color: #3cafb5;
+    background-color: #7395ae;
     text-align: center;
-    color: #d6faff;
-    height: 6vh;
-    padding: 1.5vh;
-    box-shadow: 2px 2px 10px #888888;
-    font-family: "Roboto";
+    color: white;
+    height: 7vh;
+    font-family: "Archivo";
     text-decoration: none;
     font-size: 4vh;
     z-index: 100;
-    opacity: .9;
+    display: flex;
 }
 
 header a {
@@ -122,23 +68,119 @@ header a:hover {
     opacity: 0.7;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  color: black;
+  min-width: 30vh;
+  margin-left: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 2vh;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Philadelphia Backdrop */
+.imageback {
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 25;
+}
+
+/* Self Picture */
+.selfimage {
+  display: block;
+  position: relative;
+  margin-left: 5vh;
+  height: 40vh;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  margin-right: 5vh;
+}
+
 .content {
     min-height: 150vh;
     /* 35px header + 50px footer = 85px  */
-    background: #fff8e8;
+    background-color: #928d94;
+    color: white;
+}
+
+.flexcontent {
+  display: flex;
+  padding: 4vh;
+}
+
+.flexcontent p {
+  padding: 2vh;
+  font-family: "Open Sans";
+}
+
+.flexcontent h1 {
+  padding: 2vh;
+  font-family: "Robato";
+}
+
+/* Block Backdrop */
+.blockbackdrop {
+  background-color: #b0a195;
+  margin: auto;
+  width: 80%;
+  min-height: 30vh;
+  /* border: .1vh solid #5d5b61; */
+}
+
+.blockbackdrop h1 {
+  text-align: center;
+  font-family: "Open Sans";
+  padding: 4vh;
+  color: #5d5b61;
+}
+
+.smallline {
+  background-color: #5d5b61;
+  height: .3vh;
+  width: 100%;
+  margin: auto;
+}
+
+.padded {
+  padding: 1vh;
+}
+
+.copyright {
+  text-align: left;
+  color: white;
+  font-size: 1.5vh;
+}
+
+/* Overall changes */
+* {
+    margin:0;
+    padding:0;
 }
 
 footer {
-    height: 10vh;
-    background-color: #3cafb5;
+    min-height: 10vh;
+    background-color: #7395ae;
     bottom: 0;
     width: 100%;
     text-align: center;
     font-family: "Roboto";
     font-size: 2.5vh;
-    border-color: #d6faff;
-    color: #d6faff;
+    border-color: white;
+    color: white;
     border-style: solid none none none;
     border-width: 1vh;
-    box-shadow: 0px 0px 10px #888888;
 }
