@@ -11,27 +11,31 @@
   <!-- Fonts and Icons -->
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Custom stylesheet -->
   <link rel="stylesheet" href="resources/css/homeElements.css">
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="resources/javascript/main.js"></script>
 </head>
 
 <body>
 
 <!-- Header containing sticky menu bar -->
 <header>
-   <div class="dropdown">
-    <div class="listbox">
-      <!-- Something should go here -->
-    </div>
-    <div class="dropdown-content">
-      <a href="/classes">Classes</a>
-      <div class="smallline"></div>
-      <a href="/projects">Projects</a>
-    </div>
+
+<div class="dropdown">
+  <button onclick="dropFunction()" class="dropbtn fa fa-list">
+  </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Coursework</a>
+    <a href="#">Projects</a>
+    <a href="#">Experience</a>
   </div>
+</div>
 
   <a href="/~aismaiel" style="text-decoration: none; margin: auto;">Alan Ismaiel</a>
   <div class="blankbox"></div>
@@ -41,28 +45,29 @@
 <div class="content">
 
   <img class="imageback" src="resources/images/gibson-hurst-wEzyA3186eo-unsplash.jpg" />
-  <div class="flexcontent">
-    <img class="selfimage" src="resources/images/alan_home.png" />
-    <div style="display:block; padding: 4vh;">
-      <h1>About Me</h1>
-      <div class="smallline"></div>
-      <p>Hi there, my name is Alan, and this is my website! It's a work in progress for now.</p>
-  </div>
-</div>
-  <!--
-  <div class="blockbackdrop">
-    <h1>About Me</h1>
-    <div class="smallline"></div>
-  </div>
--->
+
+  <h1>About Me</h1>
+  <div class="smallline"></div>
+  <img class="selfimage" src="resources/images/alan_home.png" alt align="left"/>
+  <p align="left">I am an undergraduate student at the University of Pennsylvania, with an expected graduation date of May 2022.
+    Working towards a Bachelors of Science in Engineering (B.S.E.) in
+    <a href="https://www.cis.upenn.edu/undergraduate/">Computer and Information Sciences</a>, as well as
+    minors in Math, Statistics, and English.
+  </p>
+  <p align="left">In addition to my studies, I work at the university's
+    <a href="https://precise.seas.upenn.edu/">PRECISE Center</a> programming and researching tools to
+    
+  </p>
+
+
 </div>
 
 <!-- Bottom bar of the page -->
 <footer>
   <table style = "width: 100%; padding: 0.5vh;">
     <tr>
-      <th style = "width: 25%; text-align: left"></th>
-      <th><b>Connect</b></th>
+      <th style = "width: 25%; text-align: left;"></th>
+      <th>Connect</th>
       <th style = "width: 25%"></th>
     </tr>
     <tr>
