@@ -7,10 +7,9 @@ Documenting the process of creating my own website
 
 *Classes Page:* Page giving a rundown of my coursework at the University of Pennsylvania
 
+*Projects Page:* Projects page detailing CS projects
 
 **To Be Added:**
-
-*Projects Page:* Projects page detailing CS projects
 
 *Other Page:* Page highlighting non-CS experience
 
