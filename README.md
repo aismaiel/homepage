@@ -2,9 +2,12 @@
 Documenting the process of creating my own website
 
 **Current Pages:**
+*Home Page:* Home page giving information about me
 
-*Home Page:* Home page allowing access to rest of site
+*Classes Page:* Page giving a rundown of my coursework at the University of Pennsylvania
 
+
+**To Be Added:**
 *Projects Page:* Projects page detailing CS projects
 
 *Other Page:* Page highlighting non-CS experience
