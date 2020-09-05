@@ -1,27 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<!-- Alan Ismaiel Personal Website WIP -->
 
 <head>
-<style>
-.centerimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  height: 30%;
-  padding: 10px;
-}
+  <meta name="author" content="Alan Ismaiel">
+  <meta name="description" content="Alan Ismaiel Home Page">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
 
-.textstyle {
-  color: blue;
-}
+  <!-- Fonts and Icons -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-</style>
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="resources/css/homeElements.css">
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="resources/javascript/main.js"></script>
 </head>
 
 <body>
 
-<h1>Alan Ismaiel</h1>
-<p>Projects Page: WIP</p>
+<!-- Header containing sticky menu bar -->
+<header>
+
+<div class="dropdown">
+  <button onclick="dropFunction()" class="dropbtn fa fa-list">
+  </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="/~aismaiel/classes">Coursework</a>
+    <a href="/~aismaiel/projects">Projects</a>
+  </div>
+</div>
+
+  <a href="/~aismaiel" style="text-decoration: none; margin: auto;">Alan Ismaiel</a>
+  <div class="blankbox"></div>
+</header>
+
+<!-- Content of the page -->
+<div class="content">
+
+  <img class="imageback" src="resources/images/photo-1487058792275-0ad4aaf24ca7.jpeg" />
+
+  <h1>Projects</h1>
+  <div class="smallline"></div>
+  <h3>Vaccine Scheduling Application (Web & Mobile)</h3>
+  <img class="projectimage" src="resources/images/hospital_project.png"/>
+  <p style="margin-left: 6vh;">This project integrated web and mobile application design to create a tool for getting
+     reliable information on vaccines—published by certified medical staff—and for signing up
+    for vacinne appointments in registered hospitals. Stores all user and hospital information in a cloud database.
+  Remotely developed with Ali Mohammad and Morgan McLees.</p>
+  <p style="margin-left: 6vh; color: black; margin-top: 1vh;">
+    <strong>
+    Over 2000 lines of code. Uses Java, JavaScript, Node.js, MongoDB, XML, HTML, CSS and Android Studio.
+    </strong>
+  </p>
+
+  <h3>
+    Stock Market Simulator
+    <a href="https://github.com/eitress/CIS191-Final-Project" class="fa fa-github"
+    style="font-size:4vh;"></a>
+  </h3>
+  <img class="projectimage" src="resources/images/stock_project.png"/>
+  <p style="margin-left: 6vh;">This project is a command line script allowing users to locally simulate
+    a stock portfolio. Uses the Yahoo Finance API, as well as HTML/XML scraping to gather current stock
+  prices, trending articles, and other information. Remotely developed with Henri Lim and Mitchell Poynter.</p>
+  <p style="margin-left: 6vh; color: black; margin-top: 1vh;">
+    <strong>
+    Over 600 lines of code. Uses Python (various packages), and Unix.
+    </strong>
+  </p>
+  <h3>Personal Website
+    <a href="https://github.com/aismaiel/homepage" class="fa fa-github"
+    style="font-size:4vh;"></a>
+  </h3>
+  <img class="projectimage" src="resources/images/website_project.png"/>
+  <p style="margin-left: 6vh;">The website you're on right now! Will be continually updated as I improve
+   as a programmer, and have more to show off.</p>
+  <p style="margin-left: 6vh; color: black; margin-top: 1vh;">
+    <strong>
+    Over 500 lines of code and counting. Uses HTML, CSS, and JavaScript.
+    </strong>
+  </p>
+  <h3>Data Generation Tool
+    <a href="https://github.com/bisc/datagen" class="fa fa-github"
+    style="font-size:4vh;"></a>
+  </h3>
+  <p style="margin-left: 6vh; margin-top: 1vh;"> The ongoing progress of my research in the PRECISE Center.
+    Using cutting-edge Mathematica functions to generate realistic time series data. Remotely being developed
+    with Jason Shu and Dr. Ivan Ruchkin.
+  </p>
+  <p style="margin-left: 6vh; color: black; margin-top: 1vh;">
+    <strong>
+    Over 500 lines of code and counting. Uses Mathematica.
+    </strong>
+  </p>
+  <h3>Additional</h3>
+  <p style="margin-left: 6vh; margin-top: 1vh; margin-bottom: 0vh;">
+    The following projects are school projects and thus privately sourced:
+  </p>
+  <p style="margin-left: 6vh; margin-top: 1vh; margin-bottom: 0vh;">
+  • A Paint application written in OCaml
+  </p>
+  <p style="margin-left: 6vh; margin-top: 0vh; margin-bottom: 0vh;">
+  • A Twitter clone written in Python using Django
+  </p>
+  <p style="margin-left: 6vh; margin-top: 0vh; margin-bottom: 3vh;">
+  • A data analysis application using Java and OpenPhillyData data sets
+  </p>
+
+</div>
+
+<!-- Bottom bar of the page -->
+<footer>
+  <table style = "width: 100%; padding: 0.5vh;">
+    <tr>
+      <th style = "width: 25%; text-align: left;"></th>
+      <th>Connect</th>
+      <th style = "width: 25%"></th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <a href="https://www.facebook.com/alan.ismaiel.98" class="fa fa-facebook"></a>
+        <a href="https://github.com/aismaiel" class="fa fa-github"></a>
+        <a href="mailto:aismaiel@seas.upenn.edu" class="fa fa-send"></a>
+        <a href="https://www.linkedin.com/in/alan-ismaiel-75b546144/" class="fa fa-linkedin"></a>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="copyright">© Alan Ismaiel 2020</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+</footer>
 </body>
 </html>
