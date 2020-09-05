@@ -1,27 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<!-- Alan Ismaiel Personal Website WIP -->
 
 <head>
-<style>
-.centerimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  height: 30%;
-  padding: 10px;
-}
+  <meta name="author" content="Alan Ismaiel">
+  <meta name="description" content="Alan Ismaiel Home Page">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
 
-.textstyle {
-  color: blue;
-}
+  <!-- Fonts and Icons -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-</style>
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="resources/css/homeElements.css">
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="resources/javascript/main.js"></script>
 </head>
 
 <body>
 
-<h1>Alan Ismaiel</h1>
-<p>Classes Page: WIP</p>
+<!-- Header containing sticky menu bar -->
+<header>
+
+<div class="dropdown">
+  <button onclick="dropFunction()" class="dropbtn fa fa-list">
+  </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="/~aismaiel/classes">Coursework</a>
+    <!--
+    <a href="#">Projects</a>
+    <a href="#">Experience</a>
+  -->
+  </div>
+</div>
+
+  <a href="/~aismaiel" style="text-decoration: none; margin: auto;">Alan Ismaiel</a>
+  <div class="blankbox"></div>
+</header>
+
+<!-- Content of the page -->
+<div class="content">
+
+  <img class="imageback" src="resources/images/gibson-hurst-wEzyA3186eo-unsplash.jpg" />
+
+  <h1>Coursework</h1>
+  <div class="smallline"></div>
+  <div class="semester">
+    <h2>Fall 2018</h2>
+    <p>• Introduction to Computer Science</p>
+    <p>• Atoms/Bits/Circuits and Systems</p>
+    <p>• Calculus III</p>
+    <p>• Writing Seminar in Sociology</p>
+    <p>• Introduction to Creative Writing</p>
+  </div>
+  <div class="semester">
+    <h2>Spring 2019</h2>
+    <p>• Programming Languages and Techniques</p>
+    <p>• Mathematical Foundations to Computer Science</p>
+    <p>• Python Programming</p>
+    <p>• Linear Algebra and Differential Equations</p>
+    <p>• General Chemistry I</p>
+    <p>• Introduction to Microeconomics</p>
+  </div>
+  <div class="semester">
+    <h2>Fall 2019</h2>
+    <p>• Data Structures and Algorithms</p>
+    <p>• Automata, Computability, and Complexity</p>
+    <p>• Probability</p>
+    <p>• Engineering Ethics</p>
+    <p>• Introduction to Psychoanalysis</p>
+  </div>
+  <div class="semester">
+    <h2>Spring 2020</h2>
+    <p>• Software Engineering and Design</p>
+    <p>• Introduction to Algorithms</p>
+    <p>• Linux Programming</p>
+    <p>• Linear Algebra</p>
+    <p>• World Film History: 1945-Present</p>
+  </div>
+  <div class="semester">
+    <h2>Fall 2020</h2>
+    <p>• Machine Learning</p>
+    <p>• Scalable and Cloud Computing</p>
+    <p>• Big Data Analytics</p>
+    <p>• Introduction to Computer Systems</p>
+    <p>• Statistical Inference</p>
+    <p>• British Poetry 1660-1914</p>
+  </div>
+
+</div>
+
+<!-- Bottom bar of the page -->
+<footer>
+  <table style = "width: 100%; padding: 0.5vh;">
+    <tr>
+      <th style = "width: 25%; text-align: left;"></th>
+      <th>Connect</th>
+      <th style = "width: 25%"></th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <a href="https://www.facebook.com/alan.ismaiel.98" class="fa fa-facebook"></a>
+        <a href="https://github.com/aismaiel" class="fa fa-github"></a>
+        <a href="mailto:aismaiel@seas.upenn.edu" class="fa fa-send"></a>
+        <a href="https://www.linkedin.com/in/alan-ismaiel-75b546144/" class="fa fa-linkedin"></a>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="copyright">© Alan Ismaiel 2020</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+</footer>
 </body>
 </html>

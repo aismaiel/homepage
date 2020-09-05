@@ -43,6 +43,7 @@ header {
     text-decoration: none;
     font-size: 4vh;
     z-index: 100;
+    box-shadow: 0vh .5vh .5vh rgba(0,0,0,0.2);
     display: flex;
 }
 
@@ -104,21 +105,12 @@ header a:hover {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-/* Philadelphia Backdrop */
+/* Image Backdrop */
 .imageback {
   position: relative;
   top: 0;
   width: 100%;
   z-index: 25;
-}
-
-/* Self Picture */
-.selfimage {
-  margin-left: 5vh;
-  height: 30vh;
-  margin-top: 5vh;
-  margin-bottom: 3vh;
-  margin-right: 5vh;
 }
 
 .content {
@@ -130,7 +122,7 @@ header a:hover {
 
 .content h1 {
   padding: 2vh;
-  font-family: "Robato";
+  font-family: "Montserrat";
   margin-top: 5vh;
   margin-bottom: 0vh;
   margin-left: 4vh;
@@ -155,23 +147,6 @@ header a:hover {
   color: #64dec5;
 }
 
-
-/* Block Backdrop */
-.blockbackdrop {
-  background-color: #b0a195;
-  margin: auto;
-  width: 80%;
-  min-height: 30vh;
-  /* border: .1vh solid #5d5b61; */
-}
-
-.blockbackdrop h1 {
-  text-align: center;
-  font-family: "Open Sans";
-  padding: 4vh;
-  color: #5d5b61;
-}
-
 .smallline {
   background-color: #5d5b61;
   height: .3vh;
@@ -189,22 +164,58 @@ header a:hover {
   font-size: 1.5vh;
 }
 
-/* Overall changes */
-* {
-    margin:0;
-    padding:0;
-}
-
 footer {
     min-height: 10vh;
     background-color: #7395ae;
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-family: "Roboto";
+    font-family: "Montserrat";
     font-size: 2.5vh;
     border-color: white;
     color: white;
     border-style: solid none none none;
     border-width: 1vh;
+}
+
+/* HOME SCREEN: Self Picture */
+.selfimage {
+  margin-left: 5vh;
+  height: 30vh;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  margin-right: 5vh;
+}
+
+/* CLASSES SCREEN: Course selection */
+.semester {
+  text-align: left;
+  display: inline-block;
+  width: 50vh;
+  height: 30vh;
+  padding: 5vh;
+  vertical-align: top;
+}
+
+.semester h2 {
+  font-family: "Roboto";
+  color: black;
+  font-size: 3.5vh;
+}
+
+.semester p {
+  font-family: "Open Sans";
+  font-size: 2.5vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  margin-left: 0vh;
+  margin-right: 0vh;
+  font-size: 2.5vh;
+}
+
+
+/* Overall changes */
+* {
+    margin:0;
+    padding:0;
 }
