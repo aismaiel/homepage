@@ -8,6 +8,7 @@
   text-decoration: none;
   margin: 0vh 1vh 0vh 1vh;
   color: white;
+  transition: opacity 0.2s;
 }
 
 .fa:hover {
@@ -18,10 +19,12 @@
   margin-right: auto;
   margin-left: auto;
   font-size: 4vh;
+  transition: font-size 0.2s;
 }
 
 .fa-list:hover {
   opacity: 1;
+  font-size: 4.7vh;
 }
 
 /* End Icon Code */
@@ -92,15 +95,22 @@ header a:hover {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: #7395ae;
-  padding: 1vh 1vh;
+  padding: 1vh;
   text-decoration: none;
   display: block;
   text-align: left;
-  font-size: 3vh;
+  font-size: 2.5vh;
+  margin-left: 1vh;
+
+  /*transition: background-color 0.2s;*/
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {
+  /*background-color: #ddd*/
+  text-decoration: underline;
+  opacity: 1;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
@@ -108,9 +118,7 @@ header a:hover {
 /* Image Backdrop */
 .imageback {
   position: relative;
-  top: 0;
   width: 100%;
-  z-index: 25;
 }
 
 .content {
@@ -151,6 +159,7 @@ header a:hover {
 .content a {
   text-decoration: none;
   color: #a7fae9;
+  transition: color 0.2s
 }
 
 .content a:hover {
@@ -227,7 +236,7 @@ footer {
 
 .projectimage {
   width: 70%;
-  
+
   margin-top: 3vh;
   margin-bottom: 3vh;
   margin-left: auto;
@@ -236,8 +245,46 @@ footer {
   display: block;
   border-color: #5d5b61;
   border-style: solid;
-  border-width: .2vh;
+  border-width: 1.5vh 1vh 2.5vh 1vh;
+  border-radius: .7vh;
+  box-shadow: .5vh .5vh .5vh rgba(0,0,0,0.2);
 
+}
+
+/* PROJECTS AND WORK SCREEN: For bulleted lists */
+.listing {
+  margin-bottom: 4vh;
+  margin-top: 0vh;
+}
+
+.listing p {
+  margin-left: 6vh;
+  margin-right: 6vh;
+  margin-top: 1vh;
+  margin-bottom: 0vh;
+}
+
+/* WORK SCREEN: Job and time formatting */
+.job {
+  width: 100%;
+}
+
+.title p {
+  font-family: "Roboto";
+  text-align: left;
+  color: black;
+  margin-left: 6vh;
+  margin-top: 0vh;
+  font-size: 2.5vh;
+}
+
+.times p {
+  font-family: "Roboto";
+  text-align: right;
+  color: black;
+  margin-right: 6vh;
+  margin-top: 0vh;
+  font-size: 2.5vh;
 }
 
 /* Overall changes */
