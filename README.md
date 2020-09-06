@@ -9,8 +9,6 @@ Documenting the process of creating my own website
 
 *Projects Page:* Projects page detailing CS projects
 
-**To Be Added:**
-
-*Other Page:* Page highlighting non-CS experience
+*Work Experience Page:* Page highlighting previous job experience, CS-related or otherwise
 
 Everything seen here is currently hosted on the website https://www.seas.upenn.edu/~aismaiel/
