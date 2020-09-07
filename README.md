@@ -1,5 +1,5 @@
 # Home Website
-Documenting the process of creating my own website
+Documenting the process of creating my own website.
 
 ## Current Pages
 **Home Page:** Home page giving information about me
