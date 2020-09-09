@@ -112,6 +112,13 @@ header a:hover {
   opacity: 1;
 }
 
+.menuline {
+  background-color: #dde;
+  height: .1vh;
+  margin-left: 1vh;
+  margin-right: 2vh;
+}
+
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
